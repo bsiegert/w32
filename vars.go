@@ -1,8 +1,8 @@
-package com
+// Copyright 2010-2012 The W32 Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
 
-import (
-	. "github.com/AllenDang/w32"
-)
+package w32
 
 var (
 	IID_NULL                      = &GUID{0x00000000, 0x0000, 0x0000, [8]byte{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}}
